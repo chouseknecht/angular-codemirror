@@ -1,0 +1,17 @@
+{
+  "name": "angular-codemirror",
+  "version": "0.0.0",
+  "devDependencies": {
+    "angular-route": "latest"
+  },
+  "dependencies": {
+    "angular": "latest", 
+    "jquery": "latest",
+    "jqueryui": "latest",
+    "components-font-awesome": "latest",
+    "twitter": "latest",
+    "js-yaml": "latest",
+    "jsonlint": "latest",
+    "codemirror": "latest"
+  }
+}

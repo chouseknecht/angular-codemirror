@@ -1,0 +1,78 @@
+/* CodeMirror.css overrides */
+
+  .CodeMirror {
+      height: auto;
+  }
+  
+  .CodeMirror-activeline-background {
+      background-color: #f7f7f7;
+  }
+  
+
+
+/* Modal dialog overrides to make jqueryui dialog blend in with Twitter. 
+   Why? Twitter's modal is not draggable or resizable, which is not very
+   useful for a code editor */
+
+  .ui-dialog-title {
+      font-size: 22px;
+      color: #1778c3;
+      font-weight: bold;
+      line-height: normal;
+  }
+  .ui-dialog .close {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1;
+      opacity: .7;
+      text-shadow: 0 1px 0 #ffffff;
+  }
+  .ui-dialog .ui-widget-header {
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid #A9A9A9;
+      height: 55px;
+  }
+  .ui-dialog .ui-dialog-titlebar {
+      padding-bottom: 0;
+      padding-top: 12px;
+  }
+  .ui-dialog .ui-dialog-titlebar {
+      background-image: none;
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #A9A9A9;
+  }
+  
+  .ui-dialog .ui-resizable-se {
+      right: 5px;
+      bottom: 5px;
+      background-position: -80px -224px;
+      color: #171717;
+  }
+
+  .ui-dialog-buttonset button.btn.btn-default.ui-state-hover,
+  .ui-dialog-buttonset button.btn.btn-default.ui-state-active,
+  .ui-dialog-buttonset button.btn.btn-default.ui-state-focus {
+      font-weight: normal;
+  }
+  .ui-dialog-buttonset button.btn.btn-primary.ui-state-hover,
+  .ui-dialog-buttonset button.btn.btn-primary.ui-state-active,
+  .ui-dialog-buttonset button.btn.btn-primary.ui-state-focus {
+      background-image: none;
+      color: #ffffff;
+      background-color: #2a6496;
+      border-color: #285e8e;
+      text-decoration: none;
+      font-weight: normal;
+  }
+  .ui-widget-overlay.ui-front {
+      background-image: none;
+      background-color: #000;
+      opacity: .6;
+      z-index: 1040;
+  }
+  .ui-front {
+      z-index: 1050;
+  }
