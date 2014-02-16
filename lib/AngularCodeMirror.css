@@ -67,12 +67,18 @@
       text-decoration: none;
       font-weight: normal;
   }
+  /* Bring the overlay above any TB fixed navs and darken it to match */
   .ui-widget-overlay.ui-front {
       background-image: none;
       background-color: #000;
       opacity: .6;
       z-index: 1040;
   }
-  .ui-front {
-      z-index: 1050;
+  /* Make sure code editor dialog is always at top of stack */
+  [aria-describedby=af-code-editor-modal].ui-front {
+      z-index: 2050;
   }
+  .CodeMirror-lint-tooltip {
+      z-index: 2060;
+  }
+
