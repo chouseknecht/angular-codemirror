@@ -1,5 +1,5 @@
-angular-codemirror
-==================
+AngularCodeMirror
+=================
 
 Incorporate [CodeMirror](http://www.codemirror.net) into your AngularJS app. Presents the editor in a resizable, draggable modal dialog styled with Twitter Bootstrap. Pass in any valid CodeMirror options to make the editor fit your app needs.
 
