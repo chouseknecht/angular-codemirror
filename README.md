@@ -12,7 +12,7 @@ Example App:
 With [Node.js](http://nodejs.org) installed, you can run the sample app locally:
 
     cd bower_components/angular-codemirror
-    node ./scripts/webserver.js
+    node ./scripts/web-server.js
 
 Point your browser to http://localhost:8000/app/index.html. Click the code editor link.
 
