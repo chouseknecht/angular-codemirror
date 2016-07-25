@@ -1,0 +1,24 @@
+{
+  "name": "angular-codemirror",
+  "version": "1.0.4",
+  "description": "AngularCodeMirror =================",
+  "main": "lib/AngularCodeMirror.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leigh-johnson/angular-codemirror.git"
+  },
+  "author": "Chris Houseknecht <chouseknecht@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leigh-johnson/angular-codemirror/issues"
+  },
+  "homepage": "https://github.com/leigh-johnson/angular-codemirror#readme",
+  "dependencies": {
+    "angular": "1.4.7",
+    "codemirror": "^5.17.0",
+    "jquery": "*"
+  }
+}
