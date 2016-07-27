@@ -1,0 +1,34 @@
+{
+  "name": "angular-codemirror",
+  "version": "1.0.4",
+  "description": "AngularCodeMirror =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leigh-johnson/angular-codemirror.git"
+  },
+  "author": {
+    "name": "Chris Houseknecht",
+    "email": "chouseknecht@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leigh-johnson/angular-codemirror/issues"
+  },
+  "homepage": "https://github.com/leigh-johnson/angular-codemirror#readme",
+  "dependencies": {
+    "angular": "1.4.7",
+    "codemirror": "^5.17.0",
+    "jquery": "*"
+  },
+  "readme": "AngularCodeMirror\n=================\n\nIncorporate [CodeMirror](http://www.codemirror.net) into your AngularJS app. Presents the editor in a resizable, draggable modal dialog styled with Twitter Bootstrap. Pass in any valid CodeMirror options to make the editor fit your app needs.\n\nInstallation:\n-------------\nbower install angular-codemirror\n\nExample App:\n------------\nWith [Node.js](http://nodejs.org) installed, you can run the sample app locally. Clone the repo to a local projects directory, install package dependencies, and then run with the included server:\n\n    cd projects\n    git clone git@github.com:chouseknecht/angular-codemirror.git\n    cd angular-codemirror\n    bower install\n    node ./scripts/web-server.js\n\nPoint your browser to http://localhost:8000/app/index.html. Click the code editor link.\n\nHow To:\n-------\nIf you installed with Bower, then all the dependencies will exist in bower_components. See app/index.html for a template of how to include all the needed .js and .css files. If you want to install dependencies manually, review bower.json for a list of what's needed.\n\nCheck the CodeMirror documentation to see what needs to be included for the mode and options you choose. Again, if you installed with Bower, then everything you need should be found under bower_components. \n\nIncorporate into your Angular app by following the example in app/js/sampleApp.js.\n\n",
+  "readmeFilename": "README.md",
+  "gitHead": "88453ef68a4e43c036dfe055bc643c114303984f",
+  "_id": "angular-codemirror@1.0.4",
+  "_shasum": "d3390b820abc1aaa72c21f294fa477bae19c1d22",
+  "_from": "leigh-johnson/angular-codemirror#1.0.4",
+  "_resolved": "git://github.com/leigh-johnson/angular-codemirror.git#88453ef68a4e43c036dfe055bc643c114303984f"
+}
